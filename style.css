@@ -1,0 +1,70 @@
+h1 {
+    color: rgb(185, 42, 149);
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    color: rgb(185, 42, 149);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.dice-div {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.roll-button {
+    background-color: rgb(185, 42, 149);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dice-img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.dice-number {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1080deg);
+    }
+}
+
+.spin {
+    animation: roll 1s linear;
+}
+
