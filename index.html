@@ -9,13 +9,24 @@
 </head>
 <body>
     <div class="main-div">
-        <h1>Test your chances</h1>
-        <p>roll the dice and test your chances if you roll 20 you get a free dice if you roll lower you might get some coupons</p>
+        <h2>هر روز شانستو امتحان کن!</h2>
+        <p>هر روز با تاس ریختن شانس خودتو امتحان کن اگه 20 بیاری یه کوپن تخفیف تا 300 تومن بدون محدودیت می‌گیری و اگه 16 تا 19 بیاری یه تخفیف 20 درصدی می‌گیری</p>
         <div class="dice-div">
-            <img class="dice-img" src="dice-1.png" alt="">
+            <img class="dice-img" src="dice-1.png" alt="عکس تاس">
         </div>
-        <button id="roll-dice" class="roll-button">roll the dice</button>
+        <button id="roll-dice" class="roll-button">تاس بریز!</button>
     </div>
+
+    <div class="popup-winner">
+        <h2 id="winner-header">شما برنده شدید</h2>
+        <p class="winner-text">برای خرج کردن کوپن به صفحه‌ی پرداخت برید!</p>
+        <p id="discount-code"></p>
+        <div class="dice-div">
+            <img class="dice-img" src="dice-1.png" alt="عکس تاس">
+        </div>
+        <button class="close-button, roll-button">باشه</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
