@@ -1,14 +1,3 @@
-h1 {
-    color: rgb(185, 42, 149);
-    text-align: center;
-    font-size: 2rem;
-}
-
-p {
-    color: rgb(185, 42, 149);
-    text-align: center;
-    font-size: 1.5rem;
-}
 
 .main-div {
     display: flex;
